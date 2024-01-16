@@ -61,6 +61,15 @@ public class Main {
             all = all + money;
             System.out.println("Месяц " + i + " сумма накоплений равна " + all + " рублей");
         }
+
+        //Задача 10
+
+        int number = 2;
+        int answer = 0;
+        for (int i = 1; i <= 10; i++) {
+            answer = number * i;
+            System.out.println(number + " * " + i + " = " + answer);
+        }
     }
 }
 
