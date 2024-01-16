@@ -42,5 +42,14 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+
+        //Задача 8
+
+        int sum = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + sum;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+        }
     }
 }
